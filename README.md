@@ -20,8 +20,11 @@ The advantage is that anyone can easily add dependent libraries by not using lon
 
 1. Change resolver in `stack.yaml`
 
+Use one of the resolvers where ghc8.10.1 is used
+
 ```yaml:stack.yaml
-resolver: ghc-8.10.1
+resolver: ghc-8.10.1 
+# or resolver: nightly-2020-07-12
 ```
 
 2. Add the following to `stack.yaml`
