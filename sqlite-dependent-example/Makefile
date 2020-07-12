@@ -13,5 +13,8 @@ exe:
 run:
 	docker run --rm --init ${EXE_IMAGE_NAME}
 
+debug:
+	docker run -it --rm ${EXE_IMAGE_NAME} /bin/bash
+
 remove-images:
 	docker rmi ${EXE_IMAGE_NAME} ${BUILDER_IMAGE_NAME}
