@@ -18,7 +18,7 @@ $ make build
 $ make build-image
 ```
 
-### 3. Runs a　Docker image with a single binary
+### 3. Runs a Docker image with a single binary
 
 ```
 $ make run
