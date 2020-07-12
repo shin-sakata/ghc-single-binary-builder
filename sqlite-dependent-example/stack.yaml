@@ -1,8 +1,11 @@
-resolver: ghc-8.10.1
+resolver: nightly-2020-07-12
 
 packages:
 - .
 
+extra-deps:
+- HDBC-sqlite3-2.3.3.1
+
 docker:
     enable: true
-    repo: shinsakata/ghc-single-binary-builder:ghc8.10.1-v1.0.0
+    image: sqlite-dependent-example-builder
