@@ -6,19 +6,19 @@ Here's a use case for a minimal Stack project
 
 See Makefile for more information
 
-### Build a single binary
+### 1. Build a single binary
 
 ```
 $ make build
 ```
 
-### Build a Docker image with a single binary running
+### 2. Build a Docker image with a single binary running
 
 ```
 $ make build-image
 ```
 
-### Run a Docker image with a single binary
+### 3. Runs a　Docker image with a single binary
 
 ```
 $ make run
