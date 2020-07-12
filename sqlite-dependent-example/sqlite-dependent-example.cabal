@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8e6ee8f6201d2ae2879379e267233c563aa5c7133af5c8c7dec79f8e7f78d45a
+-- hash: 21e8a7c0715e6fd7ae1276226836afd420c1f6da2ced3dade32f3669e2af2ad7
 
 name:           sqlite-dependent-example
 version:        0.1.0.0
@@ -42,7 +42,7 @@ executable sqlite-dependent-example-exe
       Paths_sqlite_dependent_example
   hs-source-dirs:
       app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -static -optl-static -optl-pthread -fPIC
   build-depends:
       base >=4.7 && <5
     , sqlite-dependent-example

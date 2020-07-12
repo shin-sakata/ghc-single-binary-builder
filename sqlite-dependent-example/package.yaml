@@ -33,6 +33,8 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    # Add options
+    - -static -optl-static -optl-pthread -fPIC
     dependencies:
     - sqlite-dependent-example
 

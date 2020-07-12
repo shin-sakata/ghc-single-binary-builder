@@ -1,4 +1,4 @@
-EXE_IMAGE_NAME = stack-minimub-example-exe
+EXE_IMAGE_NAME = sqlite-dependent-example
 
 build:
 	stack install --local-bin-path=./bin
