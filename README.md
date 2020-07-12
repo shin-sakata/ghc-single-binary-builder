@@ -6,6 +6,10 @@ Currently, only GHC 8.10.1 is supported.
 
 The advantage is that anyone can easily add dependent libraries by not using long, time-consuming GHC builds or unfamiliar nix hacks
 
+## Docker Hub
+
+[shinsakata/ghc-single-binary-builder](https://hub.docker.com/repository/docker/shinsakata/ghc-single-binary-builder)
+
 ## Usage
 
 ### Stack
