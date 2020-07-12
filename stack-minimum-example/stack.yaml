@@ -1,0 +1,8 @@
+resolver: ghc-8.10.1
+
+packages:
+- .
+
+docker:
+    enable: true
+    repo: shinsakata/ghc-single-binary-builder:ghc8.10.1-v1.0.0
