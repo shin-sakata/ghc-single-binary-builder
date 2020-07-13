@@ -5,7 +5,7 @@ build:
 	stack install --local-bin-path=./bin
 
 builder:
-	docker build -t ${BUILDER_IMAGE_NAME} ./docker/builder
+	docker build -t ${BUILDER_IMAGE_NAME} ./docker/builder --no-cache
 
 exe:
 	docker build -t ${EXE_IMAGE_NAME} -f ./docker/executable/app.dockerfile .
