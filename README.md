@@ -32,7 +32,7 @@ resolver: ghc-8.10.1
 ```yaml:stack.yaml
 docker:
     enable: true
-    repo: shinsakata/ghc-single-binary-builder:ghc8.10.1-v1.0.0
+    repo: shinsakata/ghc-single-binary-builder:ghc8.10.1-v1.1.0
 ```
 
 3. Add options to package.yaml
