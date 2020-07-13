@@ -1,6 +1,6 @@
 NAME = shinsakata
 IMAGE_NAME = ghc-single-binary-builder
-VERSION = v1.0.0
+VERSION = v1.1.0
 GHC_VERSION = ghc8.10.1
 
 full_image_name = ${NAME}/${IMAGE_NAME}:${GHC_VERSION}-${VERSION}
